@@ -52,15 +52,24 @@
 
 //ENUM
 
-enum Role {
-	ADMIN = 1, READ_ONLY, AUTHOR
-};
+// enum Role {
+// 	ADMIN = 1, READ_ONLY, AUTHOR
+// };
 
-const person = {
-	name : 'david',
-	age: 29,
-	hobbies: ['videogames, cooking'],
-	role: Role.ADMIN
-};
+// const person = {
+// 	name : 'david',
+// 	age: 29,
+// 	hobbies: ['videogames, cooking'],
+// 	role: Role.ADMIN
+// };
 
-console.log(person.role);
+// console.log(person.role);
+
+//ANY
+
+//avoid 'any' basicaly
+
+let array: any[];
+array = 1; //it's an array!
+
+console.log(array);

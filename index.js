@@ -40,17 +40,18 @@
 // person.role.push('admin'); //exeption for .push()
 // // person.role[1] = 10; //doesnt work
 //ENUM
-var Role;
-(function (Role) {
-    Role[Role["ADMIN"] = 1] = "ADMIN";
-    Role[Role["READ_ONLY"] = 2] = "READ_ONLY";
-    Role[Role["AUTHOR"] = 3] = "AUTHOR";
-})(Role || (Role = {}));
-;
-var person = {
-    name: 'david',
-    age: 29,
-    hobbies: ['videogames, cooking'],
-    role: Role.ADMIN
-};
-console.log(person.role);
+// enum Role {
+// 	ADMIN = 1, READ_ONLY, AUTHOR
+// };
+// const person = {
+// 	name : 'david',
+// 	age: 29,
+// 	hobbies: ['videogames, cooking'],
+// 	role: Role.ADMIN
+// };
+// console.log(person.role);
+//ANY
+//avoid 'any' basicaly
+var array;
+array = 1; //it's an array!
+console.log(array);
