@@ -1,8 +1,29 @@
-function add(n1, n2) {
-    console.log(typeof number1);
-    return n1 + n2;
+//OBJECTS
+// const person: {
+// 	name: string;
+// 	age: number;
+// } = {
+// 	name : 'david',
+// 	age: 29
+// }
+// 
+// const person = {
+// 	name : 'david',
+// 	age: 29
+// }
+// console.log(person.name);
+ARRAYS;
+var person = {
+    name: 'david',
+    age: 29,
+    hobbies: ['videogames, cooking']
+};
+var favoriteActivities;
+favoriteActivities = ['string'];
+console.log(person.name);
+for (var _i = 0, _a = person.hobbies; _i < _a.length; _i++) {
+    var hobby = _a[_i];
+    console.log(hobby.toLowerCase()); //autocompletion
+    console.log(hobby.map(function () { })); //not an array
 }
-var number1 = 5;
-var number2 = 2.5;
-var result = add(number1, number2);
-console.log(result);
+;
